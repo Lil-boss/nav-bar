@@ -1,0 +1,58 @@
+body {
+  font-family: "Kotta One", serif;
+  margin: 0;
+  padding: 0;
+}
+/* nav-bar */
+.nav-bar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+}
+.nav-bar a {
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-right: 15px;
+  color: black;
+}
+.content {
+  margin-top: 10px;
+}
+/* login-container */
+.login-container {
+  display: flex;
+  justify-content: center;
+}
+.login-form h2 {
+  text-align: center;
+  font-size: 50px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-form input,
+button {
+  font-size: 1.3em;
+  margin-top: 10px;
+  padding: 10px;
+}
+.login-form input {
+  border: none;
+  border-bottom: 2px solid teal;
+  border-radius: 10px;
+}
+input:focus {
+  outline: none;
+}
+
+.login-form button {
+  background: teal;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+}
